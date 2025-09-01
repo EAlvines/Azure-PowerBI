@@ -1,19 +1,24 @@
-# Azure Data Factory + Power BI
+# ☁️ Azure + Power BI
 
 ## 📌 Descripción
-Mini proyectos de integración con **Azure Data Factory** para construir un flujo ETL:  
-1. Copia de datos hacia tabla `stg_ventas`.  
-2. Aplicación de procedimiento almacenado para limpiar y transformar.  
-3. Carga final a tabla `fact_ventas`.  
-4. Conexión a **Power BI** para visualización de KPIs.
+Este repositorio agrupa proyectos donde utilizo **Azure Data Factory, Azure SQL Database y Power BI** para construir procesos ETL y dashboards automatizados.  
 
-## 🛠️ Tecnologías usadas
-- Azure Data Factory
-- Azure SQL Database
-- Power BI
+---
 
-## 📂 Estructura
-- `/pipeline` → definiciones de ADF (JSON o capturas)
-- `/sql` → scripts de creación de tablas y SP
-- `/docs` → diagramas y capturas de dashboard
+## 📂 Proyectos
+
+### 1. ETL Ventas → Power BI
+- **Descripción:** Flujo en Azure Data Factory que copia datos, aplica transformaciones y carga una tabla fact para visualización en Power BI.
+- **Tecnologías usadas:** Azure Data Factory, Azure SQL Database, Power BI
+- [📁 Carpeta del proyecto] 
+
+---
+
+### 2. (Próximo Proyecto)
+- **Descripción:** Pendiente.
+- [📁 Carpeta del proyecto](./proyectos/proyecto-nuevo)
+
+---
+
+## 📊 Estructura del Repo
 
